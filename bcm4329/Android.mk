@@ -1,3 +1,6 @@
+ifeq ($(BOARD_WLAN_DEVICE),bcm4319)
+    include $(call all-subdir-makefiles)
+endif
 ifeq ($(BOARD_WLAN_DEVICE),bcm4329)
     include $(call all-subdir-makefiles)
 endif
